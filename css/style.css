@@ -5,6 +5,9 @@ body {
 	margin: 0;
 	font-family: Ruda, sans-serif;
 }
+.container {
+	margin: auto;
+}
 .header {
 	padding: 15px 0;
 }
@@ -61,7 +64,7 @@ body {
 	padding: 5px 3px;
 	color: #fff;
 	font-size: 12px;
-	line-height: 15;
+	line-height: 15px;
 }
 .slide-title {
 	color: #252D33;
@@ -178,13 +181,9 @@ margin: 0;
 	padding-right: 35px;
 }
 .goods-card .label {
-display: flex;
-align-items: center;
-padding: 5px 12px;
 position: absolute;
 left: 18px;
 top: 18px;
-bottom: 88.38%;
 }
 .goods-title {
 	margin-top: 15px;
@@ -245,5 +244,5 @@ bottom: 88.38%;
 }
 .payment-logo {
 	vertical-align: middle;
-	margin-right: 15px;
+	margin-right: 25px;
 }
